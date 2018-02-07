@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="">
+    <meta charset="UTF-8">
+    <title>{{dishname}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <style>
+        body{
+            margin: 8px;
+        }
+        #player{
+            margin: 2%;
+            width: 96%;
+            height: 40vh;
+        }
+        #dp{
+            width: 10%;
+            display: inline-block;
+        }
+        #image{
+            width: 100%;
+            border-radius: 50%;
+        }
+        #elements{
+            margin: 2%;
+        }
+        #usernameblock, #commentsblock{
+            margin-top: 10px;
+            border-radius: 5px;
+            padding: 3%;
+            background-color: #eeeeee;
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+        }
+        #username, #likebtnblock{
+            display: inline-block;
+        }
+        #likebtnblock{
+            float: right;
+            font-size: 5.5em;
+        }
+        .like{
+
+        }
+        #username{
+            position: relative;
+            bottom: 15px;
+            font-size: 5.5em;
+            margin-left: 30px;
+        }
+        #addcomment{
+            overflow: scroll;
+            font-size: 2em;
+            height: 150px;
+            min-width: 75%;
+            max-width: 75%;
+        }
+        #addbtn{
+            font-size: 2em;        ;
+            margin-top: 50px;
+            float: right;
+            min-height: 50px;
+            width: 20%;
+        }
+        h3{
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin: 2%;
+            font-size: 5.5em;
+            color: #212121;
+        }
+        .comment{
+            font-size: 0.9em;
+            margin: 1% 0;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-top-style: solid;
+            border-top-width: 1px;
+        }
+        .cuser{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h3>{{dishname}}</h3>
+<iframe id="player" src="{{ylink}}">
+</iframe>
+<div id="elements">
+    <div id="usernameblock">
+        <div id="dp"><img src="http://blogs.bethel.k12.or.us/imaurer/files/2014/10/square.jpg" id="image"></div>
+        <div id="username">{{val}}</div>
+        <div id="likebtnblock">
+            <span id="number">{{numlikes}}</span>
+            <i class="fa fa-thumbs-up like" aria-hidden="true" id="likebtn" data-value="{{like}}" style="color:{{#if like}}blue{{/if}}"></i>
+        </div>
+        <div id="description">{{description}}</div>
+    </div>
+
+    <div id="commentsblock">
+        <div id="addcommentblock">
+            <textarea id="addcomment" placeholder="Write Your Comment Here..."></textarea>
+            <button id="addbtn">ADD</button>
+        </div>
+        <div id="comments">
+            {{#each comment}}
+                <div class="comment"><span class="cuser">{{this.username}} &nbsp;</span>{{this.string}}</div>
+            {{/each}}
+        </div>
+    </div>
+
+    <div class="data" style="display: none">
+        <div id="usernameid" data-set="{{val}}"></div>
+        <div id="kiski" data-set="{{kiski}}"></div>
+        <div id="id" data-set="{{id}}"></div>
+        <div id="dishname" data-set="{{dishname}}"></div>
+        <!--<div id="region" data-set="{{region}}"></div>-->
+        <div id="state" data-set="{{state}}"></div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery.js"></script>
+</body>
+</html>

@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd56a8ef-5bf8-447c-9c66-bb8b4d184a6c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/build/assert-shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/build/mini-require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/build/prefix-source-map.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/build/prefix-utils.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/build/suffix-browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/build/suffix-source-map.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/build/suffix-utils.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/build/test-prefix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/build/test-suffix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/array-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/binary-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/mapping-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/quick-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/source-map-consumer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/source-map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/source-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/dist/source-map.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/dist/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/array-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/binary-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/mapping-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/quick-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/source-map-consumer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/source-map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/source-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/source-map.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mongoconnect.js" afterPath="$PROJECT_DIR$/mongoconnect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/node_modules/accepts/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/align-text/package.json" afterPath="$PROJECT_DIR$/node_modules/align-text/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/amdefine/package.json" afterPath="$PROJECT_DIR$/node_modules/amdefine/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/array-flatten/package.json" afterPath="$PROJECT_DIR$/node_modules/array-flatten/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/async/package.json" afterPath="$PROJECT_DIR$/node_modules/async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bson/package.json" afterPath="$PROJECT_DIR$/node_modules/bson/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/buffer-shims/package.json" afterPath="$PROJECT_DIR$/node_modules/buffer-shims/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/camelcase/index.js" afterPath="$PROJECT_DIR$/node_modules/camelcase/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/camelcase/package.json" afterPath="$PROJECT_DIR$/node_modules/camelcase/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/camelcase/readme.md" afterPath="$PROJECT_DIR$/node_modules/camelcase/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/center-align/package.json" afterPath="$PROJECT_DIR$/node_modules/center-align/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/package.json" afterPath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cliui/package.json" afterPath="$PROJECT_DIR$/node_modules/cliui/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/content-disposition/package.json" afterPath="$PROJECT_DIR$/node_modules/content-disposition/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/content-type/package.json" afterPath="$PROJECT_DIR$/node_modules/content-type/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node_modules/cookie/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/decamelize/package.json" afterPath="$PROJECT_DIR$/node_modules/decamelize/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/depd/History.md" afterPath="$PROJECT_DIR$/node_modules/depd/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/depd/Readme.md" afterPath="$PROJECT_DIR$/node_modules/depd/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/depd/index.js" afterPath="$PROJECT_DIR$/node_modules/depd/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/node_modules/depd/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/destroy/package.json" afterPath="$PROJECT_DIR$/node_modules/destroy/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ee-first/package.json" afterPath="$PROJECT_DIR$/node_modules/ee-first/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/encodeurl/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/encodeurl/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/encodeurl/README.md" afterPath="$PROJECT_DIR$/node_modules/encodeurl/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/encodeurl/index.js" afterPath="$PROJECT_DIR$/node_modules/encodeurl/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/encodeurl/package.json" afterPath="$PROJECT_DIR$/node_modules/encodeurl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-promise/package.json" afterPath="$PROJECT_DIR$/node_modules/es6-promise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/escape-html/package.json" afterPath="$PROJECT_DIR$/node_modules/escape-html/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/etag/package.json" afterPath="$PROJECT_DIR$/node_modules/etag/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/finalhandler/package.json" afterPath="$PROJECT_DIR$/node_modules/finalhandler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/foreachasync/package.json" afterPath="$PROJECT_DIR$/node_modules/foreachasync/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/forwarded/package.json" afterPath="$PROJECT_DIR$/node_modules/forwarded/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node_modules/fresh/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fs/package.json" afterPath="$PROJECT_DIR$/node_modules/fs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/package.json" afterPath="$PROJECT_DIR$/node_modules/handlebars/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hbs/package.json" afterPath="$PROJECT_DIR$/node_modules/hbs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/setprototypeof/package.json" afterPath="$PROJECT_DIR$/node_modules/http-errors/node_modules/setprototypeof/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-errors/package.json" afterPath="$PROJECT_DIR$/node_modules/http-errors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-buffer/package.json" afterPath="$PROJECT_DIR$/node_modules/is-buffer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/kind-of/package.json" afterPath="$PROJECT_DIR$/node_modules/kind-of/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lazy-cache/README.md" afterPath="$PROJECT_DIR$/node_modules/lazy-cache/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lazy-cache/index.js" afterPath="$PROJECT_DIR$/node_modules/lazy-cache/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lazy-cache/package.json" afterPath="$PROJECT_DIR$/node_modules/lazy-cache/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/longest/package.json" afterPath="$PROJECT_DIR$/node_modules/longest/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/media-typer/package.json" afterPath="$PROJECT_DIR$/node_modules/media-typer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" afterPath="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node_modules/methods/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime-db/package.json" afterPath="$PROJECT_DIR$/node_modules/mime-db/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime-types/package.json" afterPath="$PROJECT_DIR$/node_modules/mime-types/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/plain.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/plain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/cursor.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/shared.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/shared.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/README.md" afterPath="$PROJECT_DIR$/node_modules/mongodb/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/authenticate.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/authenticate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/download.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/download.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongos.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/server.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/yarn.lock" afterPath="$PROJECT_DIR$/node_modules/mongodb/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/negotiator/package.json" afterPath="$PROJECT_DIR$/node_modules/negotiator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/on-finished/package.json" afterPath="$PROJECT_DIR$/node_modules/on-finished/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/optimist/package.json" afterPath="$PROJECT_DIR$/node_modules/optimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseurl/package.json" afterPath="$PROJECT_DIR$/node_modules/parseurl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/qs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/range-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/repeat-string/package.json" afterPath="$PROJECT_DIR$/node_modules/repeat-string/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/require_optional/package.json" afterPath="$PROJECT_DIR$/node_modules/require_optional/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-from/package.json" afterPath="$PROJECT_DIR$/node_modules/resolve-from/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/right-align/package.json" afterPath="$PROJECT_DIR$/node_modules/right-align/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/semver/README.md" afterPath="$PROJECT_DIR$/node_modules/semver/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/semver/bin/semver" afterPath="$PROJECT_DIR$/node_modules/semver/bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/semver/package.json" afterPath="$PROJECT_DIR$/node_modules/semver/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/semver/range.bnf" afterPath="$PROJECT_DIR$/node_modules/semver/range.bnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/semver/semver.js" afterPath="$PROJECT_DIR$/node_modules/semver/semver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node_modules/send/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-static/package.json" afterPath="$PROJECT_DIR$/node_modules/serve-static/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-map/README.md" afterPath="$PROJECT_DIR$/node_modules/source-map/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/statuses/package.json" afterPath="$PROJECT_DIR$/node_modules/statuses/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/type-is/package.json" afterPath="$PROJECT_DIR$/node_modules/type-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/uglify-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-to-browserify/package.json" afterPath="$PROJECT_DIR$/node_modules/uglify-to-browserify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/unpipe/package.json" afterPath="$PROJECT_DIR$/node_modules/unpipe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/utils-merge/package.json" afterPath="$PROJECT_DIR$/node_modules/utils-merge/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vary/package.json" afterPath="$PROJECT_DIR$/node_modules/vary/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/walk/package.json" afterPath="$PROJECT_DIR$/node_modules/walk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/window-size/package.json" afterPath="$PROJECT_DIR$/node_modules/window-size/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/wordwrap/package.json" afterPath="$PROJECT_DIR$/node_modules/wordwrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/package.json" afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="e#594#757#0" expanded="false" />
+                <element signature="e#794#942#0" expanded="false" />
+                <element signature="e#977#1764#0" expanded="false" />
+                <element signature="e#1807#2318#0" expanded="false" />
+                <element signature="e#2359#2572#0" expanded="false" />
+                <element signature="e#2617#2775#0" expanded="false" />
+                <element signature="e#2819#2986#0" expanded="false" />
+                <element signature="e#3029#3195#0" expanded="false" />
+                <element signature="e#3236#3389#0" expanded="false" />
+                <element signature="e#3429#3494#0" expanded="false" />
+                <element signature="e#3529#3691#0" expanded="false" />
+                <element signature="e#3735#3850#0" expanded="false" />
+                <element signature="e#3889#4060#0" expanded="false" />
+                <element signature="e#4102#4205#0" expanded="false" />
+                <element signature="e#4245#4555#0" expanded="false" />
+                <element signature="e#4598#4912#0" expanded="false" />
+                <element signature="e#4955#5070#0" expanded="false" />
+                <element signature="e#5097#5197#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="286">
+                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>script</find>
+      <find>getPr</find>
+      <find>getPro</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/html/Approval.html" />
+        <option value="$PROJECT_DIR$/hbs/Post.hbs" />
+        <option value="$PROJECT_DIR$/hbs/jquery.js" />
+        <option value="$PROJECT_DIR$/mongoconnect.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="81" />
+    <option name="y" value="-4" />
+    <option name="width" value="1285" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd56a8ef-5bf8-447c-9c66-bb8b4d184a6c" name="Default" comment="" />
+      <created>1508228197720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508228197720</updated>
+      <workItem from="1508228204502" duration="2486000" />
+      <workItem from="1508247361142" duration="4147000" />
+      <workItem from="1508497056708" duration="10579000" />
+      <workItem from="1508737381873" duration="10573000" />
+      <workItem from="1508832511465" duration="4506000" />
+      <workItem from="1508849826177" duration="6284000" />
+      <workItem from="1508907477928" duration="2210000" />
+      <workItem from="1508914809719" duration="10390000" />
+      <workItem from="1508947322096" duration="4127000" />
+      <workItem from="1509001788540" duration="8074000" />
+      <workItem from="1509035898945" duration="3999000" />
+      <workItem from="1509075068151" duration="869000" />
+      <workItem from="1509078738707" duration="13894000" />
+      <workItem from="1509111188455" duration="7916000" />
+      <workItem from="1509123914103" duration="22433000" />
+      <workItem from="1509167201513" duration="220000" />
+      <workItem from="1509340281590" duration="130000" />
+      <workItem from="1509541409895" duration="77000" />
+      <workItem from="1510328215955" duration="699000" />
+      <workItem from="1510419780430" duration="599000" />
+      <workItem from="1513501068865" duration="184000" />
+      <workItem from="1514290915453" duration="1219000" />
+      <workItem from="1514467075338" duration="890000" />
+      <workItem from="1514487111989" duration="599000" />
+      <workItem from="1516020330253" duration="71000" />
+      <workItem from="1518015546715" duration="1017000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="118192000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="81" y="-4" width="1285" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5773994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2054">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5694">
+          <caret line="219" column="29" lean-forward="false" selection-start-line="219" selection-start-column="29" selection-end-line="219" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5694">
+          <caret line="219" column="29" lean-forward="false" selection-start-line="219" selection-start-column="29" selection-end-line="219" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2054">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5694">
+          <caret line="219" column="29" lean-forward="false" selection-start-line="219" selection-start-column="29" selection-end-line="219" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5694">
+          <caret line="219" column="29" lean-forward="false" selection-start-line="219" selection-start-column="29" selection-end-line="219" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2054">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5408">
+          <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="89" column="49" lean-forward="false" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbs/Post.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="100" column="43" lean-forward="false" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbs/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbs/Post.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="100" column="30" lean-forward="true" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13182">
+          <caret line="507" column="0" lean-forward="false" selection-start-line="507" selection-start-column="0" selection-end-line="507" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbs/Post.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2496">
+          <caret line="96" column="43" lean-forward="false" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13182">
+          <caret line="507" column="0" lean-forward="false" selection-start-line="507" selection-start-column="0" selection-end-line="507" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbs/Post.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2496">
+          <caret line="96" column="43" lean-forward="true" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="547" column="6" lean-forward="true" selection-start-line="547" selection-start-column="6" selection-end-line="547" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbs/Post.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2418">
+          <caret line="93" column="41" lean-forward="false" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3198">
+          <caret line="206" column="51" lean-forward="false" selection-start-line="206" selection-start-column="51" selection-end-line="206" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3484">
+          <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1898">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1924">
+          <caret line="173" column="22" lean-forward="true" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-stream-sample/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Approval.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="146" column="22" lean-forward="false" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbs/Post.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="97" column="49" lean-forward="true" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbs/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#594#757#0" expanded="false" />
+            <element signature="e#794#942#0" expanded="false" />
+            <element signature="e#977#1764#0" expanded="false" />
+            <element signature="e#1807#2318#0" expanded="false" />
+            <element signature="e#2359#2572#0" expanded="false" />
+            <element signature="e#2617#2775#0" expanded="false" />
+            <element signature="e#2819#2986#0" expanded="false" />
+            <element signature="e#3029#3195#0" expanded="false" />
+            <element signature="e#3236#3389#0" expanded="false" />
+            <element signature="e#3429#3494#0" expanded="false" />
+            <element signature="e#3529#3691#0" expanded="false" />
+            <element signature="e#3735#3850#0" expanded="false" />
+            <element signature="e#3889#4060#0" expanded="false" />
+            <element signature="e#4102#4205#0" expanded="false" />
+            <element signature="e#4245#4555#0" expanded="false" />
+            <element signature="e#4598#4912#0" expanded="false" />
+            <element signature="e#4955#5070#0" expanded="false" />
+            <element signature="e#5097#5197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="286">
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

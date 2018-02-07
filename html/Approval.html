@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Approval</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            background-color: white;
+        }
+
+        li {
+            width: 50%;
+            position: relative;
+            padding-left: 30px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin: 5px;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+            background: #cccccc; /* Old browsers */
+            background: -moz-linear-gradient(top, #cccccc 0%, #ffffff 25%, #ffffff 75%, #cccccc 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(25%,#ffffff), color-stop(75%,#ffffff), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #cccccc 0%,#ffffff 25%,#ffffff 75%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #cccccc 0%,#ffffff 25%,#ffffff 75%,#cccccc 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, #cccccc 0%,#ffffff 25%,#ffffff 75%,#cccccc 100%); /* IE10+ */
+            background: linear-gradient(to bottom, #cccccc 0%,#ffffff 25%,#ffffff 75%,#cccccc 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+            cursor: pointer;
+
+            box-shadow: 2px 2px 3px #666;
+            user-select: none;
+        }
+
+        li:before {
+            position: absolute;
+            content: "";
+            left: 4px;
+            top: 50%;
+            margin-top: -10px;
+            border-left: 20px solid #ccc;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+        li:after {
+            position: absolute;
+            content: "";
+            left: 4px;
+            top: 50%;
+            margin-top: -10px;
+            border-left: 5px solid white;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+        li:hover {
+            border-color: #777;
+            box-shadow: 3px 3px 5px #333;
+
+            background: #eeeeee; /* Old browsers */
+            background: -moz-linear-gradient(top, #dddddd 0%, #ffffff 25%, #ffffff 75%, #dddddd 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dddddd), color-stop(25%,#ffffff), color-stop(75%,#ffffff), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #dddddd 0%,#ffffff 25%,#ffffff 75%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #dddddd 0%,#ffffff 25%,#ffffff 75%,#dddddd 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, #dddddd 0%,#ffffff 25%,#ffffff 75%,#dddddd 100%); /* IE10+ */
+            background: linear-gradient(to bottom, #dddddd 0%,#ffffff 25%,#ffffff 75%,#dddddd 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+        }
+
+        li:hover:before {
+            border-left-color: #777;
+        }
+
+        li:active {
+            background: #eee;
+            box-shadow: inset 0 1px 1px #666;
+        }
+        .data{
+            width: 30%;
+            display: inline-block;
+        }
+        .dish{
+            margin: 1%;
+            display: inline-block;
+        }
+        .state{
+            margin: 1%;
+            display: inline-block;
+        }
+        .buttons{
+            margin-right: 2%;
+            float: right;
+            display: inline-block;
+        }
+        button{
+            margin: 1%;
+        }
+    </style>
+</head>
+<body>
+<ul class="box" id="toadd">
+    <!--<li class="element">-->
+        <!--<div class="data">-->
+            <!--<div class="dish">Dish Name</div><br>-->
+            <!--<div class="state">State</div>-->
+        <!--</div>-->
+        <!--<div class="buttons">-->
+            <!--<button>APPROVE</button><br>-->
+            <!--<button>DISAPPROVE</button>-->
+        <!--</div>-->
+    <!--</li>-->
+    <!--<li class="element">-->
+        <!--<div class="data">-->
+            <!--<div class="dish">Dish Name</div><br>-->
+            <!--<div class="state">State</div>-->
+        <!--</div>-->
+        <!--<div class="buttons">-->
+            <!--<button>APPROVE</button><br>-->
+            <!--<button>DISAPPROVE</button>-->
+        <!--</div>-->
+    <!--</li>-->
+</ul>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    var objarr = [];
+    $.get('/getUnapproved', function (result) {
+        for(var i = 0; i < result.length; i++){
+            var currobj = result[i];
+            var obj = {
+                id : currobj.id,
+                dish : currobj.dishName
+            };
+            objarr.push(obj);
+            $('#toadd').append("<li class='element' onclick='openPage("+i+")'>"+
+                "<div class='data'>"+
+                "<div class='dish'>"+currobj.dishName+"</div><br>"+
+                "<div class='state'>"+currobj.state+"</div>"+
+                "</div>"+
+                "<div class='buttons'>"+
+                "<button data-id='"+currobj.id+"' data-dish='"+currobj.dishName+"' onclick='approveclick("+i+")'>APPROVE</button><br>"+
+                "<button data-id='"+currobj.id+"' onclick='disapproveclick("+i+")'>DISAPPROVE</button>"+
+                "</div>"+
+                "</li>"
+        );
+        }
+    });
+
+        function openPage() {
+            var obj = objarr[idx];
+            var url = "http://localhost:3000/postApproval?id="+obj.id+"&dish="+obj.dish;
+        }
+
+        function approveclick(idx) {
+            var obj = objarr[idx];
+//            console.log(obj.id, obj.dish);
+            $.post('/approve',{id : obj.id, dish : obj.dish}, function () {
+                console.log("Completed");
+                $("#"+idx+"").parent().parent().remove();
+            });
+        }
+
+        function disapproveclick(idx) {
+            var obj = objarr[idx];
+            $.post('/disapprove',{id : obj.id}, function () {
+                console.log("Completed");
+                $("#"+idx+"").parent().parent().remove();
+            });
+        }
+</script>
+</body>
+</html>
