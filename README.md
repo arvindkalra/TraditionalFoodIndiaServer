@@ -1,4 +1,4 @@
-**EXCHANGE RECIPE**
+##EXCHANGE RECIPE
 
 This is the server used to connect the android client with MongoDB Server.
 MLabs is used to maintain the MongoDB database.
